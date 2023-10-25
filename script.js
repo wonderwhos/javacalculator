@@ -1,20 +1,22 @@
-// Display 
-
-
-
-
-// Edit display number 
+// Get user inputs from buttons 
 
 
 
 
 // User inputs 
 
-let firstNumber = 10;
-let secondNumber = 10;
-let operator = "+";
+let userInputs = [];
 
-let userInputs = [firstNumber, secondNumber];
+
+// Display 
+
+let display = document.querySelector(".screen")
+display.textContent = userInputs.join("")
+
+// Edit display number 
+
+
+
 
 // Take userInputs and choose correct equation 
 
